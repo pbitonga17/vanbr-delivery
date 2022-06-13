@@ -34,7 +34,7 @@ header {
 .header__profile {
     display: flex;
     justify-content: space-between;
-    padding-top: 20vw;
+    padding-top: 50px;
     padding-left: 5vw;
     padding-right: 5vw;
     
@@ -58,12 +58,21 @@ header {
     margin: 0 20px;
     gap: 2rem;
 }
+/*.header__input-button i {
+    position: absolute;
+    z-index: 1;
+}*/
 #address {
     padding: 20px;
     width: 100%;
     border: 1px solid white;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+#address::placeholder {
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.3);
 }
 .header__button {
     display: flex;
