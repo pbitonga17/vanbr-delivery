@@ -1,0 +1,45 @@
+Colours
+Yellow Orange - F5BC4D
+Light Yellow - FDF7EC
+
+Dark Gray - 292626
+Gray - C0C0C0
+Light Gray - 828282
+
+White - FFFFFF
+
+Fonts
+Montserrat
+text: vanbr
+ *regular
+   -20
+   -30
+ *letter-spacing : 10%
+
+Quicksand
+ *regular; 
+   -it's the food... (26) (line spacing : -3%)
+   -enter delivery...(18)
+   -or (18)
+   -download app from (16)
+ *medium; 
+   -delivery (18)
+   -pick up  (18)
+   -get started (18)
+ *light
+   -list your res... (22) (tas ung nasa ilalim) (12)
+   -find restaurants... (18) (line spacing : -3.5%)
+   -sign up to deliver  (18) (line spacing : -3.5%)
+
+Heebo
+ *bold; (24)
+   -every flavour...
+   -deliver with... 
+ *medium; (16) (line spacing : 10%)
+   -Get to know... 
+   -let us help...
+   -work with us 
+ *light
+   -yung mga nasa ilalim nung nasa heebo medium (12) (line spacing : 10%)
+   -yung mga nasa pinakababa (12)
+
