@@ -1,3 +1,83 @@
 /* font-family: 'Heebo', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Quicksand', sans-serif; */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.5rem;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* -------- HEADER -------- */
+header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    background: url(../VANBR/Yellow.svg) no-repeat;  
+    position: relative;
+}
+.header__profile {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    
+}
+.header__profile--title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+}
+.header__text {
+    line-height: 2.5rem;
+    font-size: 1.1rem;
+    width: 250px;
+    text-align: left;
+    margin-left: 5vw;
+}
+.header__input-button {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5vw;
+    gap: 2rem;
+}
+#address {
+    padding: 20px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.header__button {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.header__button--btn {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 20px 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+.header__button--text {
+    font-size: 1rem;
+    
+}
