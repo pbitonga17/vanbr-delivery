@@ -30,7 +30,6 @@ header {
     gap: 5.5rem;
     background: url(../VANBR/Yellow2.svg) no-repeat;
     background-size: 100%;
-
 }
 .header__profile {
     display: flex;
@@ -64,6 +63,7 @@ header {
     width: 100%;
     border: 1px solid white;
     border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 .header__button {
     display: flex;
