@@ -18,7 +18,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 75%;
 }
 
 
@@ -27,9 +27,10 @@ header {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    gap: 6rem;
-    background: url(../VANBR/Yellow.svg) no-repeat;  
-    position: relative;
+    gap: 5.5rem;
+    background: url(../VANBR/Yellow2.svg) no-repeat;
+    background-size: 100%;
+
 }
 .header__profile {
     display: flex;
@@ -47,7 +48,7 @@ header {
 }
 .header__text {
     line-height: 2.5rem;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     width: 250px;
     text-align: left;
     margin-left: 5vw;
@@ -55,7 +56,7 @@ header {
 .header__input-button {
     display: flex;
     flex-direction: column;
-    margin: 0 5vw;
+    margin: 0 20px;
     gap: 2rem;
 }
 #address {
@@ -79,5 +80,146 @@ header {
 }
 .header__button--text {
     font-size: 1rem;
-    
+}
+
+/* -------- MAIN -------- */
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin: 10rem 0;
+}
+.main__box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: white;
+    border: 1px solid black;
+    margin: 0 5vw;
+    padding: 20px;
+}
+.main__heading {
+    display: grid;
+    gap: 1rem;
+}
+.main__heading--text {
+    line-height: 1.5rem;
+    font-size: 1.4rem;
+}
+.main__heading--paragrph {
+    font-size: 1rem;
+}
+
+
+.main__box1--btn {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+
+.main__box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.main__box2--title {
+    font-size: 1.3rem;
+    margin-left: 5vw;
+}
+.main__box2--link {
+    font-size: 1rem;
+    margin-left: 5vw;
+    color: black;
+}
+
+
+
+.main__box3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.main__box3--title {
+    font-size: 1.3rem;
+    margin-right: 5vw;
+}
+.main__box3--link {
+    font-size: 1rem;
+    margin-right: 5vw;
+    color: black;
+}
+
+/* -------- FOOTER -------- */
+
+.footer {
+    background-color: #292626;
+    color: #828282;
+    padding: 50px 0;
+    display: grid;
+    gap: 2rem;
+}
+.footer__logo {
+    display: flex;
+    align-items: center;
+}
+.footer__logo img {
+    width: 90px;
+}
+.footer__logo--name {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.footer__app-store {
+    display: grid;
+    gap: 1rem;
+    text-align: center;
+}
+.footer__app-store--image img {
+    max-width: 100%;
+}
+.footer__app-store--text {
+    font-size: 1rem;
+}
+.footer__app-store--image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 0 7vw;
+}
+.footer__list {
+    text-align: center;
+    display: grid;
+    gap: 1rem;
+}
+.footer__list-list h3 {
+    font-size: 1rem;
+}
+.footer__list-list li {
+    font-size: 0.8rem;
+}
+.footer__icons{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.footer_last-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10vw;
+    list-style-type: none;
+}
+.footer_last-list li {
+    font-size: .8rem;
 }
