@@ -88,16 +88,30 @@ main {
     display: flex;
     flex-direction: column;
     gap: 5rem;
-    margin: 10rem 0;
+    margin: 15rem 0;
+    position: relative;
 }
 .main__box1 {
     display: flex;
     flex-direction: column;
     gap: 3rem;
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     margin: 0 5vw;
     padding: 20px;
+}
+.main__box1::before {
+    content: "";
+    background: url(../VANBR/rod-long-kImU-9S9uh8-unsplash.jpg) no-repeat 0 0;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: translateY(-18%);
+    z-index: -1;
+    position: absolute;
 }
 .main__heading {
     display: grid;
